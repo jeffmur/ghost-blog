@@ -8,6 +8,9 @@ install:
 script: bundle exec rake site:deploy --quiet --trace
 env:
   global:
+    - GIT_NAME="jeffmur"
+    - GIT_EMAIL="jeffmur@uw.edu"
+    - GIT_TOKEN="e166fe0b081f4ed4607b6574f5cdb706e19f2329"
     - secure: Jwm6U+xrkjiy+gMSwdCAKSpJrpOl9usr6Hyg6IByyJqhAMQ/t9hFiLbo5EKslYxhaqBw3oK+VABlVqYKTpHyXj40VwI29Wlv3INlHYurVVJvsSDfLtHjVJs+aUjmvpXhY84fuXON+IumY7980/r0/hlS6K2Drd9Tvwg0ZQI+HzAuF53GY4JCm0MkQFNvBPS5fvblrM7Htp7Ob3DyQIKYSR1vN9vys4Mgc6j0wPWHWORDgUrhR1aLtRd1OUmt05t5+yqQJCwDHVR4+Kuu3kLGV+J6ZPaVgVniMUKtiApkOasfxu+CS3fUDQW7PgoVWCH0f5lim6cOOwGBVMJDXuOwfO81GdlDby7gDx8RkFFQsKJIkQqr9utU7CWBf5gGS98w72QlaI0qa97qyiyQPq11NTRl0hrqbZDGbJR7K++k9Z+yNDmAjh7eEpau0IkgTREGg/CH9iBB5azJG3yAwmfyOgJJcmIOWmB3DhBaag9IGNHAB7fFdaFFOBqYljGZjjdkG6NsBO/wuY9yNYsp9lokNum33KK82m7xdgGSFgNTkQycIaUiHcODQt5T5UyhdR3VyBExHkHDmpnDkK+lLd8Gtmj79YASqzMlaeqIy7OZV6diUuEe+8BYuVq4NlDIGrQezrqVVE8KHLXEQkANAyxd0o7XehTSqP4mtSqkoO6AQ+M=
 branches:
   only:
