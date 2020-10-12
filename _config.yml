@@ -71,7 +71,7 @@ username: jeffmur
 repo: ghost-blog
 branch: main
 relative_source: ../ghost-blog/
-destination: /_site/
+destination: ../ghost-pub/
 production_url:  https://jeffmur.github.io/ghost-blog/
 source_url:  https://github.com/jeffmur/ghost-blog.git
 
