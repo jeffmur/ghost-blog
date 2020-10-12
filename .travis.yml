@@ -9,10 +9,11 @@ script: bundle exec rake site:deploy --quiet --trace
 env:
   global:
   - secure: YBuaghEtFdLyvm60z4Hy76uH5wIVLvlsxWYne2+i7jsUkLCAPSgSTpzNeWlHdyFDFWTJHnIbwX+ZZ98Wno9ph5dpXhTdm21AMejgUjm7TejzrJR24BSLqM5pAq8B+kisLpI1j/Xcye8C+9fWsr8Dddnsi/xKY11eJvf7whNiRtDcVU+CnaPvRKENIr/pkk1IUsFMnOrsRvBsgdvsnJFzGuGlQ2xYciZTPrcd010bkD/GFFLj81fegQhMtBUIFuxjqQDQ3krcYoqNXVxj8iVwIqgj2gADvasOXfPVZBR/ma9il72bstl9PD12CxNiIev2VfxyE+vkXCL9OYCy/pnfs5ff2do4+O6Olrv66d5h8idXcf4Gg1jU08t10+ofSunZZ+/tuYNB0ZPzaEHhkUcYA3c27RlVq2JkXhRkb/0tCUNQCNFn9+HUbpzAMRfTfp0wJ/0yT5WXZwf21RgZ2uitCpf8yUN2tvxGw5oOk2Xh9ZMKJoHR8xPvCV88fHtK07XmbFiCnjjOscY5flyNdHFE6EVbOr6SmZf4pZK0LfRjNM+xoaB0AqtvkHCZv3oLTpvS51/9r+JTD8wIURt6el/PUsNWxlfqDMBxmhtFC4jzc0nnZDR4nwwm2H6o9Kjrx43FWwL4vIFDMtco/ZK61lkZxqd7uIIBaznSppzc/kSGVDI=
+  - secure: Jwm6U+xrkjiy+gMSwdCAKSpJrpOl9usr6Hyg6IByyJqhAMQ/t9hFiLbo5EKslYxhaqBw3oK+VABlVqYKTpHyXj40VwI29Wlv3INlHYurVVJvsSDfLtHjVJs+aUjmvpXhY84fuXON+IumY7980/r0/hlS6K2Drd9Tvwg0ZQI+HzAuF53GY4JCm0MkQFNvBPS5fvblrM7Htp7Ob3DyQIKYSR1vN9vys4Mgc6j0wPWHWORDgUrhR1aLtRd1OUmt05t5+yqQJCwDHVR4+Kuu3kLGV+J6ZPaVgVniMUKtiApkOasfxu+CS3fUDQW7PgoVWCH0f5lim6cOOwGBVMJDXuOwfO81GdlDby7gDx8RkFFQsKJIkQqr9utU7CWBf5gGS98w72QlaI0qa97qyiyQPq11NTRl0hrqbZDGbJR7K++k9Z+yNDmAjh7eEpau0IkgTREGg/CH9iBB5azJG3yAwmfyOgJJcmIOWmB3DhBaag9IGNHAB7fFdaFFOBqYljGZjjdkG6NsBO/wuY9yNYsp9lokNum33KK82m7xdgGSFgNTkQycIaUiHcODQt5T5UyhdR3VyBExHkHDmpnDkK+lLd8Gtmj79YASqzMlaeqIy7OZV6diUuEe+8BYuVq4NlDIGrQezrqVVE8KHLXEQkANAyxd0o7XehTSqP4mtSqkoO6AQ+M=
 branches:
   only:
   - main
 after_script:
-  - git config credential.helper "store --file=.git/credentials"
-  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-  - node ./node_modules/grunt-cli/bin/grunt release
+- git config credential.helper "store --file=.git/credentials"
+- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+- node ./node_modules/grunt-cli/bin/grunt release
