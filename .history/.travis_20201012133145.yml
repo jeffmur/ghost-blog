@@ -1,0 +1,20 @@
+sudo: required
+language: ruby
+cache: bundler
+rvm:
+- 2.5.1
+install:
+- bundle install
+script: bundle exec rake site:deploy --quiet --trace
+env:
+  global:
+  - GIT_NAME="jeffmur"
+  - GIT_EMAIL="jeffmur@uw.edu"
+  - secure: "SfeLPXB/pHptlvCqHrCIt+4VLBVb2CNzX2wnC1tAqHn7ENOLbJ54aFON8Q8O2chRv9xduIku+t7RmHuYjUEkjQ2ZRudWuuzMArEm0EzxKfiKw5DQ8X1dNURZkWY1Y75exkTqwJOAS/rhmvJabGWYeyCms0UQY1m5sPdoD2xuxpGbykemCzUYkO9t+7cEJghWq0Nwhd5Nobh2GrD3yRccQnIT2AzbVcCYDzTGev40GWGiAHTHDJdCtMIVC4DfC96iKKz9e4WKTYP4oifDeEbm2b6FG3QYtweaHb/zm5a8uSzNPp8tQqvAj9Fbb6p+fOogMGaVqZ7eDVP99TQVs7BRz987l1FFo2OU/WOwDtH7pwsu4KofEvt2oPYREEa3tmat6dGnE9wMMdt/qkNleiU8fReiCgZjEW9ISeJbXsCZvC5TBKXMVpf8GifX5PkBpC1c3r9sHuptNV+5dXkDMsH7sbRsxaU7DN+wuuu+tQKH8sHstvk5nPzDFV9VFRlLO5Ciotr4uMzhTrKGmK/7d3feT5Zx85GcgitbxePfcnqnD/N56+9JzZwaM4hK8h9UaTQNdJ7ws+AcsgeB/iKz0k4O/JgnVdaDSQV1TAh2FUNH89vjxPZK4vDpp//2RWszspicv134/004Wqe5DGiJN3KGQXpBhlAQXM5AWbKPYojwbjI="  
+  branches:
+  only:
+  - main
+after_script:
+- git config credential.helper "store --file=.git/credentials"
+- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+- node ./node_modules/grunt-cli/bin/grunt release
