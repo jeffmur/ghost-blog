@@ -73,7 +73,7 @@ branch: main
 relative_source: ../ghost-blog/
 destination: ../ghost-pub/
 production_url:  https://jeffmur.github.io/ghost-blog/
-source_url:  https://github.com/jeffmur/ghost-blog.git
+source_url:  https://github.com/jeffmur/ghost-blog
 
 exclude:
   - assets/css
