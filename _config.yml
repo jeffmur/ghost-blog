@@ -69,7 +69,7 @@ safe: False
 lsi: False
 username: jeffmur
 repo: ghost-blog
-branch: master
+branch: main
 relative_source: ../ghost-blog/
 destination: /_site/
 production_url:  https://jeffmur.github.io/ghost-blog/
