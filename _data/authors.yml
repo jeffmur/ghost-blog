@@ -1,6 +1,12 @@
 # Includes social links:
   # Twitter, Facebook, Linkedin, Github
-
+ghost:
+  username: ghost
+  name: Ghost
+  bio: Welcome
+  picture: assets/images/ghost.png
+  cover: False
+  
 jeffmur:
   username: jeffmur
   name: jeffmur
