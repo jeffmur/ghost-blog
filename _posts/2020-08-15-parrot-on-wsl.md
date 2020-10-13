@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/parrot.png
+cover:  assets/images/parrot.PNG
 navigation: True
 title: Parrot OS on WSL 2
 date: 2017-07-27 06:00:00
