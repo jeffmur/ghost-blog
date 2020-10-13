@@ -70,7 +70,7 @@ lsi: False
 username: jeffmur
 repo: ghost-blog
 branch: main
-relative_source: ../ghost-blog/
+relative_source: /
 destination: ../ghost-pages/
 production_url:  https://jeffmur.github.io/ghost-blog/
 source_url:  https://github.com/jeffmur/ghost-blog
