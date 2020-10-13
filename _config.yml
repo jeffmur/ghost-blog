@@ -9,21 +9,21 @@ words_per_minute: 200
 baseurl: /ghost-blog/
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: Jeffrey Murray Jr
+# description: Jeffrey Murray Jr 
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
+#logo: assets/images/blog-icon.png
+#logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-CNAME: https://jeffmur.github.io/ghost-blog
+CNAME: https://jeffmur.github.io/ghost-blog/
 
 # Social info
 navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+linkedin: jeffmurjr
+github: jeffmur
 
 # Disqus
 disqus: False
