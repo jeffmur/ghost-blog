@@ -14,3 +14,6 @@ env:
 branches:
   only:
   - main
+
+  notifications:
+    email: false
