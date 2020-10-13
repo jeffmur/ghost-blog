@@ -15,7 +15,7 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-CNAME: https://students.washington.edu/jeffmur/
+CNAME: https://jeffmur.github.io/ghost-blog
 
 # Social info
 navigation: True # show the navbar links
@@ -70,7 +70,7 @@ lsi: False
 username: jeffmur
 repo: ghost-blog
 branch: main
-relative_source: /
+relative_source: /ghost-blog/
 destination: ../ghost-pages/
 production_url:  https://jeffmur.github.io/ghost-blog/
 source_url:  https://github.com/jeffmur/ghost-blog
