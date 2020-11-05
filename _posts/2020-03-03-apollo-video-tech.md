@@ -5,7 +5,7 @@ cover: assets/images/AVT.jpg
 navigation: True
 title: Apollo Video Technology
 date: 2020-03-03 10:00:00
-tags: [experience]
+tags: [project]
 class: post-template
 subclass: 'post'
 author: jeffmur
