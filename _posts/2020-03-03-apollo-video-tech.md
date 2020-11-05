@@ -10,7 +10,7 @@ class: post-template
 subclass: 'post'
 author: jeffmur
 ---
-Capstone Software Development Project
+Capstone
 
 <img src="assets\images\apollo.png" alt="Apollo Video Technology Logo"/>
 

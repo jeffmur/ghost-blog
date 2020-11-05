@@ -5,13 +5,13 @@ cover:  assets/images/parrot.PNG
 navigation: True
 title: Parrot Sec on WSL 2
 date: 2020-08-15 06:00:00
-tags: [tutorials]
+tags: [security]
 class: post-template
 subclass: 'post'
 author: jeffmur
 ---
 
-How to set-up WSL 2, and upgrade Debian to Parrot OS.
+Setting up WSL 2, and upgrade Debian to Parrot OS.
 
 # Installing on WSL2
 Note: This option only works in Windows 10, where our final set up will include a GUI and CLI for Parrot OS by upgrading a Debian WSL app.
