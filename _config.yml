@@ -6,7 +6,8 @@ language: 'en-us'
 words_per_minute: 75
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /ghost-blog/
+baseurl: /
+url: https://jeffmur.dev
 
 # Website info
 title: Jeffrey Murray Jr
@@ -70,9 +71,9 @@ lsi: False
 username: jeffmur
 repo: ghost-blog
 branch: main
-relative_source: /ghost-blog/
+relative_source: /
 destination: ../ghost-pages/
-production_url:  https://jeffmur.github.io/ghost-blog/
+production_url:  https://jeffmur.dev
 source_url:  https://github.com/jeffmur/ghost-blog
 
 exclude:
