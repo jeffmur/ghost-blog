@@ -13,12 +13,3 @@ env:
 branches:
   only:
   - main
-git: 
-  depth: false
-
-deploy:
-  provider: pages
-  on:
-    branch: gh-pages
-  target_branch: main
-  fqdn: jeffmur.dev

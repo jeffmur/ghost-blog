@@ -9,7 +9,7 @@ cover: assets/images/uw-background.jpg
 ---
 
 # University of Washington Bothell
-## Master's in Cyber Security Engineering
+## Master's in Cybersecurity Engineering
 
 <object data="/assets/images/resume.pdf" type="application/pdf" width="800px" height="800px">
     <embed src="/assets/images/resume.pdf" type="application/pdf">
