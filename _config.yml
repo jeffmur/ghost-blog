@@ -5,7 +5,7 @@ paginate: 100 # it will paginate after this number
 language: 'en-us'
 words_per_minute: 75
 
-url: "https://jeffmur.dev"
+url: "https://jeffmur.dev/"
 
 # Website info
 title: Jeffrey Murray Jr
