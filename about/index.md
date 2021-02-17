@@ -9,7 +9,10 @@ cover: assets/images/uw-background.jpg
 ---
 
 # University of Washington Bothell
-### Master's in Cyber Security Engineering
+## Master's in Cyber Security Engineering
 
-I've made this as an archive for projects, tutorials, etc. 
-I'm not sure what I'll put in this yet...
+<object data="/assets/images/resume.pdf" type="application/pdf" width="800px" height="800px">
+    <embed src="/assets/images/resume.pdf" type="application/pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/images/resume.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
