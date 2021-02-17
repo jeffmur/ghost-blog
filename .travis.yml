@@ -1,4 +1,4 @@
-sudo: required
+fqdn: jeffmur.dev
 language: ruby
 cache: bundler
 rvm:
