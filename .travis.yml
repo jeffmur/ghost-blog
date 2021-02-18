@@ -16,4 +16,4 @@ branches:
 deploy:
   provider: surge
   project: ./ghost-pages/
-  domain: jeffmur.dev
+  fqdn: jeffmur.dev
