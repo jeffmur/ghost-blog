@@ -5,6 +5,10 @@ rvm:
 install:
 - bundle install
 script: bundle exec rake site:deploy --quiet --trace
+env:
+  global:
+  - GIT_NAME=jeffmur
+  - GIT_EMAIL=jeffmur@uw.edu
 branches:
   only:
   - main
