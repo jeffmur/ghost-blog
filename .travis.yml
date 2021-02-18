@@ -14,8 +14,8 @@ branches:
   only:
   - main
 deploy:
-  provider: pages:git
+  provider: pages
   edge: true # opt in for dp1 v2
   cleanup: true 
-  token: $GIT_TOKEN 
+  deploy_key: $GIT_TOKEN 
   fqdn: jeffmur.dev # CNAME
