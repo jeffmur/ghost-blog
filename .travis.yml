@@ -5,6 +5,10 @@ rvm:
 install:
 - bundle install
 script: bundle exec rake site:deploy --quiet --trace
+env:
+  global:
+  - GIT_NAME=jeffmur
+  - GIT_EMAIL=jeffmur@uw.edu
 branches:
   only:
   - main
@@ -12,6 +16,6 @@ deploy:
   provider: pages
   edge: true # opt in for dp1 v2
   cleanup: true 
-  token: $GITHUB_TOKEN 
+  token: $GIT_TOKEN 
   commit_message: Deploy %[project_name]
   fqdn: jeffmur.dev
