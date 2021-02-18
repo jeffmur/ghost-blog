@@ -13,11 +13,3 @@ env:
 branches:
   only:
   - main
-deploy:
-  provider: pages
-  skip-cleanup: true 
-  github_token: $GITHUB_TOKEN 
-  target-branch: gh-pages
-  keep-history: true 
-  commit_message: Deploy %[project_name]
-  fqdn: jeffmur.dev
