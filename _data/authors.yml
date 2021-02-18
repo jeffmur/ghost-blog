@@ -1,0 +1,28 @@
+# Includes social links:
+  # Twitter, Facebook, Linkedin, Github
+ghost:
+  username: ghost
+  name: Ghost
+  bio: Welcome
+  picture: assets/images/ghost.png
+  cover: False
+  
+jeffmur:
+  username: jeffmur
+  name: jeffmur
+  bio: M.S Cybersecurity Engineering
+  picture: assets/images/whoami.jpg
+  linkedin: jeffmurjr
+  github: jeffmur
+  cover: False
+# hannah:
+#   username: hannah
+#   name: Hannah Wolfe
+#   location: London, UK
+#   url_full: http://hannah.wf/
+#   url: hannah.wf
+#   bio: Hannah is the co-founder and lead developer at Ghost. She spends her days looking after Ghost's developer community, tracking down bugs & ensuring Ghost(Pro) is a happy place.
+#   picture: assets/images/hannah.jpg
+#   facebook: False
+#   twitter: erisds
+#   cover: assets/images/hannah-cover.jpg

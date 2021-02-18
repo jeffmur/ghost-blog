@@ -1,0 +1,25 @@
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="{{ site.url }}{{ site.baseurl }}">
+            <span>{{ site.title }}</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">{{ page.title }}</div>
+    <!-- <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this {% include point.html %}</div>
+        <a class="floating-header-share-tw" href="https://github.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}{{ page.url | remove_first: '/' }}"
+            onclick="window.open(this.href, 'share-github', 'width=550,height=235');return false;">
+            {% include github.html %}
+        </a>
+        <a class="floating-header-share-fb" href="https://www.linkedin.com/in/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}"
+            onclick="window.open(this.href, 'share-github','width=580,height=296');return false;">
+            {% include linkedin.html %}
+        </a>
+    </div> -->
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
