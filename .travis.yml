@@ -16,6 +16,6 @@ deploy:
   provider: pages
   edge: true # opt in for dp1 v2
   cleanup: true 
-  token: $GIT_TOKEN 
+  github_token: $GIT_TOKEN 
   commit_message: Deploy %[project_name]
   fqdn: jeffmur.dev
