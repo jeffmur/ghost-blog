@@ -1,28 +1,101 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title> - Articles</title>
+    <description></description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    https://jeffmur.dev</link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>Privacy Analysis of Data Anonymization</title>
+        
+          <description>&lt;p&gt;Research Assistant&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Jan 2021 10:00:00 +0000</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        https://jeffmur.dev/privacy</link>
+        <guid isPermaLink="true">https://jeffmur.dev/privacy</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+      <item>
+        <title>WannaCry</title>
+        
+          <description>&lt;p&gt;Static and Dynamic Analysis
+&lt;img src=&quot;https://techcrunch.com/wp-content/uploads/2019/07/wannacry-mid-image.gif&quot; alt=&quot;Alt-text&quot; /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 09 Nov 2020 11:00:00 +0000</pubDate>
+        <link>
+        https://jeffmur.dev/wannacry</link>
+        <guid isPermaLink="true">https://jeffmur.dev/wannacry</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Parrot Sec on WSL 2</title>
+        
+          <description>&lt;p&gt;Setting up WSL 2, and upgrade Debian to Parrot OS.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 15 Aug 2020 06:00:00 +0000</pubDate>
+        <link>
+        https://jeffmur.dev/parrot-on-wsl</link>
+        <guid isPermaLink="true">https://jeffmur.dev/parrot-on-wsl</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Checkers</title>
+        
+          <description>&lt;p&gt;Multiplayer American Style Checkers&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 25 Mar 2020 06:00:00 +0000</pubDate>
+        <link>
+        https://jeffmur.dev/checkers</link>
+        <guid isPermaLink="true">https://jeffmur.dev/checkers</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Apollo Video Technology</title>
+        
+          <description>&lt;p&gt;Capstone&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 03 Mar 2020 10:00:00 +0000</pubDate>
+        <link>
+        https://jeffmur.dev/apollo-video-tech</link>
+        <guid isPermaLink="true">https://jeffmur.dev/apollo-video-tech</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hotel RedЯum</title>
+        
+          <description>&lt;p&gt;Inspired by &lt;em&gt;The Binding of Issac&lt;/em&gt;, &lt;em&gt;Enter the Gungeon&lt;/em&gt;, and 1980’s hit film &lt;em&gt;The Shining&lt;/em&gt;.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Dec 2019 06:00:00 +0000</pubDate>
+        <link>
+        https://jeffmur.dev/redrum</link>
+        <guid isPermaLink="true">https://jeffmur.dev/redrum</guid>
+      </item>
+      
+    
   </channel>
 </rss>

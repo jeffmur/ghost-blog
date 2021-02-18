@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://jeffmur.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeffmur.dev/" rel="alternate" type="text/html" /><updated>2021-02-18T04:13:27+00:00</updated><id>https://jeffmur.dev/</id><title type="html">Jeffrey Murray Jr</title><entry><title type="html">Privacy Analysis of Data Anonymization</title><link href="https://jeffmur.dev/privacy" rel="alternate" type="text/html" title="Privacy Analysis of Data Anonymization" /><published>2021-01-25T10:00:00+00:00</published><updated>2021-01-25T10:00:00+00:00</updated><id>https://jeffmur.dev/privacy</id><content type="html" xml:base="https://jeffmur.dev/privacy">&lt;p&gt;Research Assistant&lt;/p&gt;
+
+&lt;h2 id=&quot;my-contributions&quot;&gt;My Contributions&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Produced two presentations for partner company&lt;/li&gt;
+  &lt;li&gt;Deliver a landscape paper of state-of-the-art techniques on anonymizing spatio-temporal data.&lt;/li&gt;
+  &lt;li&gt;Investigation &amp;amp; Scope
+    &lt;ul&gt;
+      &lt;li&gt;Numerous mechanisms&lt;/li&gt;
+      &lt;li&gt;Contemporary research problems&lt;/li&gt;
+      &lt;li&gt;Case studies of successful and failed public distributions of sensitive data&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt; &lt;br /&gt;
+Murray Jr, J., Mashhadi, A., Lagesse, B., and Stiber, M. “Privacy Preserving Techniques Applied to CPNI Data: Analysis and Recommendations.” arXiv preprint &lt;a href=&quot;https://arxiv.org/abs/2101.09834&quot;&gt;arXiv:2101.09834&lt;/a&gt; (2021).&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Telecom operators collect enormous amounts of data that is often referred to as Customer Proprietary Network Information (CPNI). One of the main dimensions of such data is Call Data Records which includes fine grain information regarding the location (latitude and longitude) of the caller, and the callee, along with their associated cell towers and the time of the call. This data is not only essential to the billing operations of the telecom industry but is also extremely valuable for third party agencies and researchers. For example, a common need when analyzing real-world data-sets is determining which instances stand out as being dissimilar to all others. Such instances are known as anomalies, and given a high prevalence of normal instances of data, anomalies can be identified using machine learning approaches.&lt;/p&gt;
+
+&lt;p&gt;In the context of spatial temporal data such as those of Call Data Records, anomalies could correspond to the high load on a specific cell tower at a given time  caused by a natural phenomena such as  events, crowd flow/traffic jam (Oliver et al., 2015), or by adversarial attacks.  Other use cases of such data include detecting similarities and patterns. For example, CDR data has been shown to improve our understanding of the dynamics of citizens’ mobility and communities (Hong et al., 2018; Oliver et al., 2020).&lt;/p&gt;
+
+&lt;p&gt;With Telecommunication Carriers growing interest in contributing Customer Proprietary Network Information (CPNI) for research, they must go through their legal team to verify the request of distributing data with academia and other untrustworthy third parties. For them to achieve this solution, our cohort was tasked with investigating the viability of anonymization techniques and recommending necessary actions to release the information.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;p&gt;de Montjoye, Y.-A., Hidalgo, C. A., Verleysen, M., &amp;amp; Blondel, V. D. (2013). Unique in the Crowd: The privacy bounds of human mobility. Scientific Reports, 3(1), 1376. https://doi.org/10.1038/srep01376
+
+&lt;p&gt;Hong, L., Lee, M., Mashhadi, A., &amp;amp; Frias-Martinez, V. (2018). Towards Understanding Communication Behavior Changes During Floods Using Cell Phone Data. Social Informatics, 97–107. https://doi.org/10.1007/978-3-030-01159-8_9
+
+&lt;p&gt;Oliver, N., Lepri, B., Sterly, H., Lambiotte, R., Deletaille, S., De Nadai, M., Letouzé, E., Salah, A. A., Benjamins, R., Cattuto, C., Colizza, V., de Cordes, N., Fraiberger, S. P., Koebe, T., Lehmann, S., Murillo, J., Pentland, A., Pham, P. N., Pivetta, F., … Vinck, P. (2020). Mobile phone data for informing public health actions across the COVID-19 pandemic life cycle. Science Advances, 6(23), eabc0764. https://doi.org/10.1126/sciadv.abc0764
+
+&lt;p&gt;Oliver, N., Matic, A., &amp;amp; Frias-Martinez, E. (2015). Mobile Network Data for Public Health: Opportunities and Challenges. Frontiers in Public Health, 3. https://doi.org/10.3389/fpubh.2015.00189
+
+&lt;p&gt;Wang, S., Cao, J., &amp;amp; Yu, P. S. (2019). Deep Learning for Spatio-Temporal Data Mining: A Survey. ArXiv:1906.04928 [Cs, Stat]. http://arxiv.org/abs/1906.04928
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;</content><author><name>jeffmur</name></author><category term="research" /><summary type="html">Research Assistant</summary></entry><entry><title type="html">WannaCry</title><link href="https://jeffmur.dev/wannacry" rel="alternate" type="text/html" title="WannaCry" /><published>2020-11-09T11:00:00+00:00</published><updated>2020-11-09T11:00:00+00:00</updated><id>https://jeffmur.dev/wannacry</id><content type="html" xml:base="https://jeffmur.dev/wannacry">&lt;p&gt;Static and Dynamic Analysis
+&lt;img src=&quot;https://techcrunch.com/wp-content/uploads/2019/07/wannacry-mid-image.gif&quot; alt=&quot;Alt-text&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;basics-and-concepts&quot;&gt;Basics and Concepts&lt;/h2&gt;
+&lt;p&gt;WannaCry broke previous malware records, due to the world-wide coverage. Like Pitbull, everyone was watching.&lt;/p&gt;
+
+&lt;p&gt;On May 12th 2017, WannaCry exploited a vulnerability in a protocol of Microsoft’s Operating System. Nearly 200,000 computers in 150 countries found that their files were encrypted and must pay $300 to recover them. One of the most affected users were within the British National Health Service (NHS) which rendered their systems useless, postponing medical appointments for weeks, with only emergencies the only service provided by the thousands of hospitals under the NHS.&lt;/p&gt;
+
+&lt;h2 id=&quot;three-major-components&quot;&gt;Three Major Components&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Worm: does not require a primary host which allows it to spread autonomously
+    &lt;ul&gt;
+      &lt;li&gt;Took advantage of the SMBv1 protocol&lt;/li&gt;
+      &lt;li&gt;Patched by Microsoft 2 months prior &lt;a href=&quot;https://docs.microsoft.com/en-us/security-updates/SecurityBulletins/2017/ms17-010&quot;&gt;MS17-010 Critical&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Released by the Shadow Brokers who released many other vulnerabilities in common software from the NSA&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Kill Switch: Single line of code that dictates behavior
+    &lt;ul&gt;
+      &lt;li&gt;Checks to see if the domain is registered&lt;/li&gt;
+      &lt;li&gt;If live, stops spread and encryption on host computer&lt;/li&gt;
+      &lt;li&gt;Otherwise, encrypts everything and sends to random IP addresses on the network&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Ransomware: User must pay to remove malware
+    &lt;ul&gt;
+      &lt;li&gt;Must pay $300 to recover the files&lt;/li&gt;
+      &lt;li&gt;Users reported that paying the ransom did not resolve the issue (Twitter)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;technical&quot;&gt;Technical&lt;/h2&gt;
+&lt;p&gt;WannaCry is not a polymorphic worm, in that, the primary executable (malware) does not change over time, nor was designed to. It’s MD5 hash was the same across the world, however many copy-cats (enthusiast) hackers over the last decade have attempted to recreate this world-wide spread by modifying the Kill-Switch which inadvertently modifies the MD5 sum of the malware. Sophos Labs reported another 10 versions have been released to the public compared the original version.&lt;/p&gt;
+
+&lt;p&gt;The Server Message Block v1 protocol was vulnerable to the EternalBlue exploit that allows remote execution of arbitrary code on Windows systems. Computers who do not have this security patch are still vulnerable if they were shared this file directly over the network. Once this exploit gains access to the network, floods it with spoofed packets from Microsoft to reach the target machine. This allows attackers to compromised the entire local network and all devices connected to it. Shodan reported that in 2019 there are around 400,000 windows systems with the SMBv1 protocol still active and online. Now some of these may be honeypots, purposefully online to attract attackers to learn more about them, however the only prevention they have are anti-malware software (hopefully).&lt;/p&gt;
+
+&lt;p&gt;The final portion of this attack is through a raw shell code payload, DoublePulsar, a memory based kernel that hooks onto x86 and 64-bit systems that allows hackers to execute commands directly on the host computer. It can respond to a single ping request (see if the domain is active), uninstall itself, load shell code, and/or run a DLL on the host. This powerful exploit only resides in the RAM which is a two pronged attack, for the user can restart the computer and the malware is gone. However, random access memory is extremely fast (less than 1ms) to execute all commands.&lt;/p&gt;
+
+&lt;h2 id=&quot;now-for-the-fun&quot;&gt;Now for the fun…&lt;/h2&gt;
+&lt;p&gt;I wanted to re-live this experience on my own computer, but in a contained, sandbox environment with VirtualBox and NO internet connection. So, I performed a static and dynamic analysis of this malware on the computer in a contained environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;assets/images/Malware-Analysis-Temple.docx&quot;&gt;Tutorial&lt;/a&gt; I followed.&lt;/p&gt;
+
+&lt;h2 id=&quot;set-up&quot;&gt;Set-up&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Import Virtual Machine: &lt;a href=&quot;https://www.dropbox.com/s/dvcib0leancn886/WindowsInfoSec.ova?dl=0&quot;&gt;Win 10 w/ SMB v1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;NAT Network (EthicalHacking)&lt;/li&gt;
+  &lt;li&gt;Turning off adapter within environment before execution
+    &lt;ul&gt;
+      &lt;li&gt;It CAN spread if other machines on the network are not patched, and has access to the network&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Snapshot the box prior to each step for redundant backups&lt;/li&gt;
+  &lt;li&gt;Finally, disabling Windows Defender&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;static-analysis&quot;&gt;Static Analysis&lt;/h2&gt;
+&lt;p&gt;During the static analysis (before execution) which allows the analyst to pull information from the malware without running it.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Strings Program
+    &lt;ul&gt;
+      &lt;li&gt;MD5 checksum&lt;/li&gt;
+      &lt;li&gt;Kill switch domain&lt;/li&gt;
+      &lt;li&gt;Packing information of executable&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Resource Hacker
+    &lt;ul&gt;
+      &lt;li&gt;FileVersion: 1.0&lt;/li&gt;
+      &lt;li&gt;Ownership: Shado Brokers&lt;/li&gt;
+      &lt;li&gt;Save the /bin as an executable&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Dependency Walker
+    &lt;ul&gt;
+      &lt;li&gt;Dynamic Linked Libraries included in packing info and use in a malware sample&lt;/li&gt;
+      &lt;li&gt;BCRYPT.DLL: in house encryption for windows and re-used by WannaCry
+&lt;img src=&quot;assets/images/StaticAnalysis.png&quot; alt=&quot;Static Analysis&quot; /&gt;
+        &lt;h2 id=&quot;dynamic-analysis&quot;&gt;Dynamic Analysis&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Process Monitor
+    &lt;ul&gt;
+      &lt;li&gt;An advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity. It combines the features of two legacy Sysinternals utilities, Filemon and Regmon, and adds an extensive list of enhancements including rich and non-destructive filtering, comprehensive event properties such as session IDs and user names, reliable process information, full thread stacks with integrated symbol support for each operation, simultaneous logging to a file, and much more. Its uniquely powerful features will make Process Monitor a core utility in your system troubleshooting and malware hunting toolkit.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Process Explorer
+    &lt;ul&gt;
+      &lt;li&gt;The unique capabilities of Process Explorer make it useful for tracking down DLL-version problems or handle leaks, and provide insight into the way Windows and applications work.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/DynamicAnalysis_Moment.jpg&quot; alt=&quot;Final Result&quot; /&gt;&lt;/p&gt;</content><author><name>jeffmur</name></author><category term="security" /><summary type="html">Static and Dynamic Analysis</summary></entry><entry><title type="html">Parrot Sec on WSL 2</title><link href="https://jeffmur.dev/parrot-on-wsl" rel="alternate" type="text/html" title="Parrot Sec on WSL 2" /><published>2020-08-15T06:00:00+00:00</published><updated>2020-08-15T06:00:00+00:00</updated><id>https://jeffmur.dev/parrot-on-wsl</id><content type="html" xml:base="https://jeffmur.dev/parrot-on-wsl">&lt;p&gt;Setting up WSL 2, and upgrade Debian to Parrot OS.&lt;/p&gt;
+
+&lt;h1 id=&quot;installing-on-wsl2&quot;&gt;Installing on WSL2&lt;/h1&gt;
+&lt;p&gt;Note: This option only works in Windows 10, where our final set up will include a GUI and CLI for Parrot OS by upgrading a Debian WSL app.&lt;/p&gt;
+&lt;h2 id=&quot;wsl-2&quot;&gt;WSL 2&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2&quot;&gt;Follow this tutorial&lt;/a&gt; via Microsoft Docs&lt;/p&gt;
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements:&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Running Windows 10, updated to version 2004
+&lt;strong&gt;Build 19041&lt;/strong&gt; or higher.
+64-bit Machine (for Kernel Update)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;install-wsl&quot;&gt;Install WSL&lt;/h3&gt;
+&lt;p&gt;Open PowerShell as Admin and run:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cmd&quot;&gt;dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Restart&lt;/em&gt; your machine and complete WSL install&lt;/p&gt;
+
+&lt;h3 id=&quot;update-to-wsl-2&quot;&gt;Update to WSL 2&lt;/h3&gt;
+&lt;p&gt;Open PowerShell as Admin&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cmd&quot;&gt;wsl --set-default-version 2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you see&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;WSL 2 requires an update to its kernel component. For information please visit &lt;a href=&quot;https://aka.ms/wsl2kernel&quot;&gt;aka.ms/wsl2kernel&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt; and &lt;strong&gt;install&lt;/strong&gt; the MSI x64 Linux Kernel.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-debian&quot;&gt;Install Debian&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open the Microsoft Store and select &lt;strong&gt;Debian&lt;/strong&gt; distro&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Get&lt;/em&gt; and &lt;strong&gt;install&lt;/strong&gt; the application&lt;/li&gt;
+  &lt;li&gt;Create a unix user account (ex. parrot) and password&lt;/li&gt;
+  &lt;li&gt;Ensure that Debian is running on WSL 2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Powershell&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cmd&quot;&gt;wsl --list --verbose
+wsl --set-version &amp;lt;distribution name&amp;gt; &amp;lt;versionNumber&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Success! You now have WSL2 and Debian installed :)&lt;/p&gt;
+&lt;h2 id=&quot;debian---parrot&quot;&gt;Debian -&amp;gt; Parrot&lt;/h2&gt;
+&lt;p&gt;Let’s get to the fun stuff!
+In your CLI, copy and paste to get the &lt;a href=&quot;https://raw.githubusercontent.com/ParrotSec/alternate-install/master/parrot-install.sh&quot;&gt;parrot-install.sh&lt;/a&gt;
+Alternatively, copy the raw text if you don’t trust me&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cmd&quot;&gt;curl https://raw.githubusercontent.com/ParrotSec/alternate-install/master/parrot-install.sh -o parrot-install.sh
+chmod a+x parrot-install.sh
+sudo ./parrot-install.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;select-1-install-core-only&quot;&gt;Select 1. Install Core Only&lt;/h3&gt;
+&lt;p&gt;Why: This will get the correct sources.list for the parrot repositories.
+I &lt;em&gt;highly&lt;/em&gt; recommend this option!&lt;/p&gt;
+
+&lt;p&gt;Update works, but upgrade returns:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;404 archives/packages not found&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Previous:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/apt/sources.list&lt;/code&gt;
+&lt;strong&gt;New:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/apt/sources.list.d/*&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;debian.list (empty)
+parrot.list (auto-generated)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;my-parrotlist&quot;&gt;My parrot.list&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;deb&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parrot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parrot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rolling&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contrib&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;non&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;free&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#deb-src https://deb.parrot.sh/parrot/ rolling main contrib non-free&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;deb&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parrot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parrot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rolling&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;security&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contrib&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;non&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;free&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#deb-src https://deb.parrot.sh/parrot/ rolling-security main contrib non-free&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You may use ANY mirror, but I the rolling release was the only successful endpoint for upgrading.&lt;/p&gt;
+
+&lt;h3 id=&quot;hash-and-key-verification&quot;&gt;Hash and Key Verification&lt;/h3&gt;
+&lt;p&gt;Note: before you continue you must ensure you have the parrot-security key ring.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://docs.parrotlinux.org/info/verify-keys/&quot;&gt;See Hash and Key Verification&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When you enter &lt;em&gt;root&lt;/em&gt; you should see the parrot CLI styling
+&lt;img src=&quot;https://community.parrotsec.org/uploads/default/original/2X/2/27a2aa28caa328ca348676da4debb0de03ae01bb.png&quot; alt=&quot;parrot-neofetch|690x318&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;to-upgrade&quot;&gt;To Upgrade&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cmd&quot;&gt;sudo su
+parrot-upgrade
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will install all dependencies for the OS, and important packages, but no security tools, or GUI.&lt;/p&gt;
+&lt;h3 id=&quot;installing-a-gui&quot;&gt;Installing a GUI&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cmd&quot;&gt;apt-get install parrot-interface parrot-interface-full parrot-tools-full
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;installing-security-tools&quot;&gt;Installing Security Tools&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cmd&quot;&gt;apt -y --allow-downgrades install parrot-interface parrot-interface-full parrot-tools-full
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;before-you-continue&quot;&gt;Before you continue&lt;/h3&gt;
+&lt;p&gt;The GUI &amp;amp; RDP protocol can be extremely slow, and I have since switched to a live USB option.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;See &lt;a href=&quot;https://www.rzegocki.pl/blog/create-parrot-os-pendrive-with-encrypted-persistence-volume/&quot;&gt;Live Encrypted Persistance USB&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I prefer to utilize my hardware and save files across on my drive.
+However, this is a great proof of concept to allow you to have a GUI on Debian based WSL 2 linux distributions (like Kali Linux).&lt;/p&gt;
+
+&lt;h3 id=&quot;to-access-the-gui&quot;&gt;To Access the GUI&lt;/h3&gt;
+&lt;p&gt;As of now, we should have a WSL 2 instance with all of the bells and whistles.
+So, to access this machine, we will use the onboard application, Remote Desktop Connection.&lt;/p&gt;
+
+&lt;h3 id=&quot;lan-xrdp-server&quot;&gt;LAN XRDP Server&lt;/h3&gt;
+&lt;p&gt;This will create an access port on your Local Area Network through the WSL network adapter.
+Allows you to connect to an operating system.
+Note: You can only remote into a single WSL machine at a time (b/c they share an IP address)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cmd&quot;&gt;apt-get install xrdp
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I created a bash file (rdp.sh) with&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+/etc/init.d/xrdp start
+ip addr
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;rdpsh-output&quot;&gt;rdp.sh output&lt;/h3&gt;
+
+&lt;p&gt;Side Note: I &lt;em&gt;recommend&lt;/em&gt;  Windows Terminal (Preview) for WSL2 
+&lt;img src=&quot;https://community.parrotsec.org/uploads/default/original/2X/4/47d7fb1165b270d1a1206029b380328e8056d5b7.png&quot; alt=&quot;parrot-cli|690x386, 100%&quot; /&gt;
+Highlighted is the WSL LAN IP Address you are looking for.
+Enter this into the RDC program and click &lt;em&gt;Connect&lt;/em&gt;.
+&lt;img src=&quot;https://community.parrotsec.org/uploads/default/original/2X/b/b2406cd79c13dfe9ff72a5f15b440159112cdde5.png&quot; alt=&quot;RDP|207x274, 100%&quot; /&gt; 
+Once you enter the creds into the XRDP Server, you may now access the Parrot GUI.&lt;/p&gt;
+
+&lt;p&gt;And it works just like Kali Linux!!
+&lt;img src=&quot;https://community.parrotsec.org/uploads/default/optimized/2X/7/76e93baa2b68f6a5c3a98cf9686a30adf91dcf89_2_690x388.jpeg&quot; alt=&quot;Parrot.PNG|690x388, 100%&quot; /&gt;&lt;/p&gt;</content><author><name>jeffmur</name></author><category term="security" /><summary type="html">Setting up WSL 2, and upgrade Debian to Parrot OS.</summary></entry><entry><title type="html">Checkers</title><link href="https://jeffmur.dev/checkers" rel="alternate" type="text/html" title="Checkers" /><published>2020-03-25T06:00:00+00:00</published><updated>2020-03-25T06:00:00+00:00</updated><id>https://jeffmur.dev/checkers</id><content type="html" xml:base="https://jeffmur.dev/checkers">&lt;p&gt;Multiplayer American Style Checkers&lt;/p&gt;
+
+&lt;p&gt;Authors: Jeffrey Murray Jr, Chris O’Keefe, Sam Krogh&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/l5op8ZvKh5I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;project-description&quot;&gt;Project Description&lt;/h2&gt;
+&lt;p&gt;Multiplayer Checkers is an an online, application-based version of American checkers. Players will use a client to connect to a matchmaking server in order to be paired up with other, with the gameplay clients communicating over the server. Players are identified in the game by a username of their choice.&lt;/p&gt;
+
+&lt;p&gt;In addition to being able to play a best-of-1 game of checkers against an online opponent (As per the rules here), the application will allow players to rematch their current opponent and track their overall total wins and losses. In-game, players will be able to view the name of their opponent, the current state of the board, as well as whose turn it currently is.&lt;/p&gt;
+
+&lt;h2 id=&quot;game-concept&quot;&gt;Game Concept&lt;/h2&gt;
+&lt;p&gt;American style checkers that allows users to play either locally or online versus other players. The game enforces all game rules that a game of checker entails, such as double jumps, move restrictions, kings, and forced moves (white under-glow).&lt;/p&gt;
+
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;/h2&gt;
+&lt;p&gt;Left Click : Interact with buttons &amp;amp; Move pieces &lt;br /&gt;
+Mouse : Move pieces while holding &lt;br /&gt;
+Enter : Submit text box inputs &lt;br /&gt;
+T : Show &amp;amp; Hide Chat &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;graphic-settings&quot;&gt;Graphic Settings&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Resolution: Keep Recommended of 800x600 for the optimal experience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;for-developers&quot;&gt;For Developers&lt;/h2&gt;
+&lt;p&gt;Previously configured to Azure VM, however can be implemented on any &lt;strong&gt;public IP address&lt;/strong&gt; server&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To change:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Modify Server/server.cpp to correct ip via &lt;em&gt;ifconfig&lt;/em&gt; or &lt;em&gt;ip add&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Modify Checkers/Assets/Scripts/Client.cs serverAddress to corrected IP address&lt;/li&gt;
+  &lt;li&gt;Recompile &amp;amp; Generate .EXE and/or .APP on Unity Version &lt;em&gt;2019.2.10f1&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Compile server.cpp with gcc and run output executable.&lt;/li&gt;
+  &lt;li&gt;Enjoy!&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>jeffmur</name></author><category term="project" /><summary type="html">Multiplayer American Style Checkers</summary></entry><entry><title type="html">Apollo Video Technology</title><link href="https://jeffmur.dev/apollo-video-tech" rel="alternate" type="text/html" title="Apollo Video Technology" /><published>2020-03-03T10:00:00+00:00</published><updated>2020-03-03T10:00:00+00:00</updated><id>https://jeffmur.dev/apollo-video-tech</id><content type="html" xml:base="https://jeffmur.dev/apollo-video-tech">&lt;p&gt;Capstone&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets\images\apollo.png&quot; alt=&quot;Apollo Video Technology Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Formally Apollo Video Technology, where I had the pleasure of working with dedicated professionals at &lt;a href=&quot;https://www.luminator.com/en&quot;&gt;Luminator Technology Group&lt;/a&gt; who sparked my interest in Networking and Security based solutions. I gained so much hands-on experience and knowledge from our lead &lt;a href=&quot;https://www.linkedin.com/in/skrasnyi/&quot;&gt;Stanislav Krasnyi&lt;/a&gt;. His perseverance and management skills kept the project on track and pushed our team through the finish line.&lt;/p&gt;
+
+&lt;p&gt;We developed an proof of concept to decode live streaming video on mobile devices. &lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Authentication Flow&lt;/li&gt;
+  &lt;li&gt;Websocket H264/5 Video Stream&lt;/li&gt;
+  &lt;li&gt;Decoding within WebView Flutter Plugin&lt;/li&gt;
+  &lt;li&gt;WebView Layered Architecture&lt;/li&gt;
+  &lt;li&gt;Synchronous &amp;amp; Asynchronous Network Calls&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Such that we could mimic their web portal one camera at a time!
+&lt;img src=&quot;assets\images\decoding.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately that’s all that I can share, the rest is confidential…&lt;/p&gt;</content><author><name>jeffmur</name></author><category term="project" /><summary type="html">Capstone</summary></entry><entry><title type="html">Hotel RedЯum</title><link href="https://jeffmur.dev/redrum" rel="alternate" type="text/html" title="Hotel RedЯum" /><published>2019-12-01T06:00:00+00:00</published><updated>2019-12-01T06:00:00+00:00</updated><id>https://jeffmur.dev/redrum</id><content type="html" xml:base="https://jeffmur.dev/redrum">&lt;p&gt;Inspired by &lt;em&gt;The Binding of Issac&lt;/em&gt;, &lt;em&gt;Enter the Gungeon&lt;/em&gt;, and 1980’s hit film &lt;em&gt;The Shining&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;to-play&quot;&gt;To Play&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeffmur.github.io/RedRumHotel/&quot;&gt;WebGL&lt;/a&gt;       
+&lt;a href=&quot;https://jeffmur.github.io/RedRum/builds/RedRum-EXE.zip&quot;&gt;Windows&lt;/a&gt;      
+&lt;a href=&quot;https://jeffmur.github.io/RedRum/builds/RedRumMac.zip&quot;&gt;Mac&lt;/a&gt;      &lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SHA-256&lt;/td&gt;
+      &lt;td&gt;File&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;d10af533b4fcd5f64c57616c2543b7d1a54667ab7e6bdfaec1efb416f5918c16&lt;/td&gt;
+      &lt;td&gt;RedRum-EXE.zip&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2ab8aeb2fa372cf808242a825e919c8d8c0572b8eb081e0054e5c5ab9b4b68bf&lt;/td&gt;
+      &lt;td&gt;RedRumMac.zip&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;development-staff&quot;&gt;Development Staff&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/jayden-stipek-aa5460165/&quot;&gt;Jayden Stipek&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.linkedin.com/in/jeffmurjr/&quot;&gt;Jeffrey Murray Jr&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.linkedin.com/in/chris-o-keefe-a9bba9b7/&quot;&gt;Christopher O’Keefe&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.linkedin.com/in/andy-tran-8968b0170/&quot;&gt;Andy Tran&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.linkedin.com/in/colezhichen/&quot;&gt;Cole Liu&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-this-game&quot;&gt;ABOUT THIS GAME&lt;/h2&gt;
+&lt;p&gt;When &lt;font color=&quot;green&quot;&gt;Casper&lt;/font&gt; begins an ordinary day as a bellhop, he finds himself trapped on the top floor of Hotel RedЯum, and must &lt;font color=&quot;red&quot;&gt;find a way out.&lt;/font&gt;
+Each level is randomly generated path for the user to traverse his/her way through each level. Each floor consists of incremental sizes, and increased number of creatures that spawn in each room. There are some &lt;font color=&quot;gold&quot;&gt;secret treasure&lt;/font&gt; embedded in this game.&lt;/p&gt;
+
+&lt;iframe width=&quot;500&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/IxQwqimojLA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h3&gt;
+&lt;p&gt;Hotel RedRum is a randomly generated action RPG shooter with heavy Rogue-like elements. An interesting mix of &lt;a href=&quot;https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/&quot;&gt;The Binding of Issac&lt;/a&gt; and &lt;a href=&quot;https://store.steampowered.com/app/311690/Enter_the_Gungeon/&quot;&gt;Enter the Gungeon&lt;/a&gt;, where on his journey players will find bizarre items, weapons, and enemies that will determine if he will survive.&lt;/p&gt;
+
+&lt;h3 id=&quot;contributed-features&quot;&gt;Contributed Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Main Menu with volume control and Item Description&lt;/li&gt;
+  &lt;li&gt;Player Statistics
+    &lt;ul&gt;
+      &lt;li&gt;Shadow player with global stats&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Random Map Generation (4x4, 5x5, 6x6)
+    &lt;ul&gt;
+      &lt;li&gt;Cred: &lt;a href=&quot;https://www.youtube.com/channel/UC9Z1XWw1kmnvOOFsj6Bzy2g&quot;&gt;Blackthornprod&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cache System to save items in room.
+    &lt;ul&gt;
+      &lt;li&gt;Hidden/Shown variable based on room index&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gameplay-1&quot;&gt;Gameplay&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;assets\images\Level.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;assets\images\FirstBoss.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;assets\images\FinalBoss.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>jeffmur</name></author><category term="project" /><summary type="html">Inspired by The Binding of Issac, Enter the Gungeon, and 1980’s hit film The Shining.</summary></entry></feed>

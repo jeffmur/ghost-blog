@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://jeffmur.dev/tag/project/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jeffmur.dev/" rel="alternate" type="text/html" />
+  <updated>2021-02-18T04:13:27+00:00</updated>
+  <id>https://jeffmur.dev/tag/project/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Jeffrey Murray Jr | </title>
+  
+
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Checkers</title>
+      <link href="https://jeffmur.dev/checkers" rel="alternate" type="text/html" title="Checkers" />
+      <published>2020-03-25T06:00:00+00:00</published>
+      <updated>2020-03-25T06:00:00+00:00</updated>
+      <id>https://jeffmur.dev/checkers</id>
+      <content type="html" xml:base="https://jeffmur.dev/checkers">&lt;p&gt;Multiplayer American Style Checkers&lt;/p&gt;
+
+&lt;p&gt;Authors: Jeffrey Murray Jr, Chris O’Keefe, Sam Krogh&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/l5op8ZvKh5I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;project-description&quot;&gt;Project Description&lt;/h2&gt;
+&lt;p&gt;Multiplayer Checkers is an an online, application-based version of American checkers. Players will use a client to connect to a matchmaking server in order to be paired up with other, with the gameplay clients communicating over the server. Players are identified in the game by a username of their choice.&lt;/p&gt;
+
+&lt;p&gt;In addition to being able to play a best-of-1 game of checkers against an online opponent (As per the rules here), the application will allow players to rematch their current opponent and track their overall total wins and losses. In-game, players will be able to view the name of their opponent, the current state of the board, as well as whose turn it currently is.&lt;/p&gt;
+
+&lt;h2 id=&quot;game-concept&quot;&gt;Game Concept&lt;/h2&gt;
+&lt;p&gt;American style checkers that allows users to play either locally or online versus other players. The game enforces all game rules that a game of checker entails, such as double jumps, move restrictions, kings, and forced moves (white under-glow).&lt;/p&gt;
+
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;/h2&gt;
+&lt;p&gt;Left Click : Interact with buttons &amp;amp; Move pieces &lt;br /&gt;
+Mouse : Move pieces while holding &lt;br /&gt;
+Enter : Submit text box inputs &lt;br /&gt;
+T : Show &amp;amp; Hide Chat &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;graphic-settings&quot;&gt;Graphic Settings&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Resolution: Keep Recommended of 800x600 for the optimal experience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;for-developers&quot;&gt;For Developers&lt;/h2&gt;
+&lt;p&gt;Previously configured to Azure VM, however can be implemented on any &lt;strong&gt;public IP address&lt;/strong&gt; server&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To change:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Modify Server/server.cpp to correct ip via &lt;em&gt;ifconfig&lt;/em&gt; or &lt;em&gt;ip add&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Modify Checkers/Assets/Scripts/Client.cs serverAddress to corrected IP address&lt;/li&gt;
+  &lt;li&gt;Recompile &amp;amp; Generate .EXE and/or .APP on Unity Version &lt;em&gt;2019.2.10f1&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Compile server.cpp with gcc and run output executable.&lt;/li&gt;
+  &lt;li&gt;Enjoy!&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jeffmur</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="project" />
+      
+
+      
+        <summary type="html">Multiplayer American Style Checkers</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Apollo Video Technology</title>
+      <link href="https://jeffmur.dev/apollo-video-tech" rel="alternate" type="text/html" title="Apollo Video Technology" />
+      <published>2020-03-03T10:00:00+00:00</published>
+      <updated>2020-03-03T10:00:00+00:00</updated>
+      <id>https://jeffmur.dev/apollo-video-tech</id>
+      <content type="html" xml:base="https://jeffmur.dev/apollo-video-tech">&lt;p&gt;Capstone&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets\images\apollo.png&quot; alt=&quot;Apollo Video Technology Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Formally Apollo Video Technology, where I had the pleasure of working with dedicated professionals at &lt;a href=&quot;https://www.luminator.com/en&quot;&gt;Luminator Technology Group&lt;/a&gt; who sparked my interest in Networking and Security based solutions. I gained so much hands-on experience and knowledge from our lead &lt;a href=&quot;https://www.linkedin.com/in/skrasnyi/&quot;&gt;Stanislav Krasnyi&lt;/a&gt;. His perseverance and management skills kept the project on track and pushed our team through the finish line.&lt;/p&gt;
+
+&lt;p&gt;We developed an proof of concept to decode live streaming video on mobile devices. &lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Authentication Flow&lt;/li&gt;
+  &lt;li&gt;Websocket H264/5 Video Stream&lt;/li&gt;
+  &lt;li&gt;Decoding within WebView Flutter Plugin&lt;/li&gt;
+  &lt;li&gt;WebView Layered Architecture&lt;/li&gt;
+  &lt;li&gt;Synchronous &amp;amp; Asynchronous Network Calls&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Such that we could mimic their web portal one camera at a time!
+&lt;img src=&quot;assets\images\decoding.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately that’s all that I can share, the rest is confidential…&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jeffmur</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="project" />
+      
+
+      
+        <summary type="html">Capstone</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Hotel RedЯum</title>
+      <link href="https://jeffmur.dev/redrum" rel="alternate" type="text/html" title="Hotel RedЯum" />
+      <published>2019-12-01T06:00:00+00:00</published>
+      <updated>2019-12-01T06:00:00+00:00</updated>
+      <id>https://jeffmur.dev/redrum</id>
+      <content type="html" xml:base="https://jeffmur.dev/redrum">&lt;p&gt;Inspired by &lt;em&gt;The Binding of Issac&lt;/em&gt;, &lt;em&gt;Enter the Gungeon&lt;/em&gt;, and 1980’s hit film &lt;em&gt;The Shining&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;to-play&quot;&gt;To Play&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeffmur.github.io/RedRumHotel/&quot;&gt;WebGL&lt;/a&gt;       
+&lt;a href=&quot;https://jeffmur.github.io/RedRum/builds/RedRum-EXE.zip&quot;&gt;Windows&lt;/a&gt;      
+&lt;a href=&quot;https://jeffmur.github.io/RedRum/builds/RedRumMac.zip&quot;&gt;Mac&lt;/a&gt;      &lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SHA-256&lt;/td&gt;
+      &lt;td&gt;File&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;d10af533b4fcd5f64c57616c2543b7d1a54667ab7e6bdfaec1efb416f5918c16&lt;/td&gt;
+      &lt;td&gt;RedRum-EXE.zip&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2ab8aeb2fa372cf808242a825e919c8d8c0572b8eb081e0054e5c5ab9b4b68bf&lt;/td&gt;
+      &lt;td&gt;RedRumMac.zip&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;development-staff&quot;&gt;Development Staff&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/jayden-stipek-aa5460165/&quot;&gt;Jayden Stipek&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.linkedin.com/in/jeffmurjr/&quot;&gt;Jeffrey Murray Jr&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.linkedin.com/in/chris-o-keefe-a9bba9b7/&quot;&gt;Christopher O’Keefe&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.linkedin.com/in/andy-tran-8968b0170/&quot;&gt;Andy Tran&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.linkedin.com/in/colezhichen/&quot;&gt;Cole Liu&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-this-game&quot;&gt;ABOUT THIS GAME&lt;/h2&gt;
+&lt;p&gt;When &lt;font color=&quot;green&quot;&gt;Casper&lt;/font&gt; begins an ordinary day as a bellhop, he finds himself trapped on the top floor of Hotel RedЯum, and must &lt;font color=&quot;red&quot;&gt;find a way out.&lt;/font&gt;
+Each level is randomly generated path for the user to traverse his/her way through each level. Each floor consists of incremental sizes, and increased number of creatures that spawn in each room. There are some &lt;font color=&quot;gold&quot;&gt;secret treasure&lt;/font&gt; embedded in this game.&lt;/p&gt;
+
+&lt;iframe width=&quot;500&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/IxQwqimojLA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h3&gt;
+&lt;p&gt;Hotel RedRum is a randomly generated action RPG shooter with heavy Rogue-like elements. An interesting mix of &lt;a href=&quot;https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/&quot;&gt;The Binding of Issac&lt;/a&gt; and &lt;a href=&quot;https://store.steampowered.com/app/311690/Enter_the_Gungeon/&quot;&gt;Enter the Gungeon&lt;/a&gt;, where on his journey players will find bizarre items, weapons, and enemies that will determine if he will survive.&lt;/p&gt;
+
+&lt;h3 id=&quot;contributed-features&quot;&gt;Contributed Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Main Menu with volume control and Item Description&lt;/li&gt;
+  &lt;li&gt;Player Statistics
+    &lt;ul&gt;
+      &lt;li&gt;Shadow player with global stats&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Random Map Generation (4x4, 5x5, 6x6)
+    &lt;ul&gt;
+      &lt;li&gt;Cred: &lt;a href=&quot;https://www.youtube.com/channel/UC9Z1XWw1kmnvOOFsj6Bzy2g&quot;&gt;Blackthornprod&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cache System to save items in room.
+    &lt;ul&gt;
+      &lt;li&gt;Hidden/Shown variable based on room index&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gameplay-1&quot;&gt;Gameplay&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;assets\images\Level.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;assets\images\FirstBoss.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;assets\images\FinalBoss.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jeffmur</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="project" />
+      
+
+      
+        <summary type="html">Inspired by The Binding of Issac, Enter the Gungeon, and 1980’s hit film The Shining.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

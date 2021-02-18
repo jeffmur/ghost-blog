@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://jeffmur.dev/tag/research/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jeffmur.dev/" rel="alternate" type="text/html" />
+  <updated>2021-02-18T04:13:27+00:00</updated>
+  <id>https://jeffmur.dev/tag/research/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Jeffrey Murray Jr | </title>
+  
+
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Privacy Analysis of Data Anonymization</title>
+      <link href="https://jeffmur.dev/privacy" rel="alternate" type="text/html" title="Privacy Analysis of Data Anonymization" />
+      <published>2021-01-25T10:00:00+00:00</published>
+      <updated>2021-01-25T10:00:00+00:00</updated>
+      <id>https://jeffmur.dev/privacy</id>
+      <content type="html" xml:base="https://jeffmur.dev/privacy">&lt;p&gt;Research Assistant&lt;/p&gt;
+
+&lt;h2 id=&quot;my-contributions&quot;&gt;My Contributions&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Produced two presentations for partner company&lt;/li&gt;
+  &lt;li&gt;Deliver a landscape paper of state-of-the-art techniques on anonymizing spatio-temporal data.&lt;/li&gt;
+  &lt;li&gt;Investigation &amp;amp; Scope
+    &lt;ul&gt;
+      &lt;li&gt;Numerous mechanisms&lt;/li&gt;
+      &lt;li&gt;Contemporary research problems&lt;/li&gt;
+      &lt;li&gt;Case studies of successful and failed public distributions of sensitive data&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt; &lt;br /&gt;
+Murray Jr, J., Mashhadi, A., Lagesse, B., and Stiber, M. “Privacy Preserving Techniques Applied to CPNI Data: Analysis and Recommendations.” arXiv preprint &lt;a href=&quot;https://arxiv.org/abs/2101.09834&quot;&gt;arXiv:2101.09834&lt;/a&gt; (2021).&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Telecom operators collect enormous amounts of data that is often referred to as Customer Proprietary Network Information (CPNI). One of the main dimensions of such data is Call Data Records which includes fine grain information regarding the location (latitude and longitude) of the caller, and the callee, along with their associated cell towers and the time of the call. This data is not only essential to the billing operations of the telecom industry but is also extremely valuable for third party agencies and researchers. For example, a common need when analyzing real-world data-sets is determining which instances stand out as being dissimilar to all others. Such instances are known as anomalies, and given a high prevalence of normal instances of data, anomalies can be identified using machine learning approaches.&lt;/p&gt;
+
+&lt;p&gt;In the context of spatial temporal data such as those of Call Data Records, anomalies could correspond to the high load on a specific cell tower at a given time  caused by a natural phenomena such as  events, crowd flow/traffic jam (Oliver et al., 2015), or by adversarial attacks.  Other use cases of such data include detecting similarities and patterns. For example, CDR data has been shown to improve our understanding of the dynamics of citizens’ mobility and communities (Hong et al., 2018; Oliver et al., 2020).&lt;/p&gt;
+
+&lt;p&gt;With Telecommunication Carriers growing interest in contributing Customer Proprietary Network Information (CPNI) for research, they must go through their legal team to verify the request of distributing data with academia and other untrustworthy third parties. For them to achieve this solution, our cohort was tasked with investigating the viability of anonymization techniques and recommending necessary actions to release the information.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;p&gt;de Montjoye, Y.-A., Hidalgo, C. A., Verleysen, M., &amp;amp; Blondel, V. D. (2013). Unique in the Crowd: The privacy bounds of human mobility. Scientific Reports, 3(1), 1376. https://doi.org/10.1038/srep01376
+
+&lt;p&gt;Hong, L., Lee, M., Mashhadi, A., &amp;amp; Frias-Martinez, V. (2018). Towards Understanding Communication Behavior Changes During Floods Using Cell Phone Data. Social Informatics, 97–107. https://doi.org/10.1007/978-3-030-01159-8_9
+
+&lt;p&gt;Oliver, N., Lepri, B., Sterly, H., Lambiotte, R., Deletaille, S., De Nadai, M., Letouzé, E., Salah, A. A., Benjamins, R., Cattuto, C., Colizza, V., de Cordes, N., Fraiberger, S. P., Koebe, T., Lehmann, S., Murillo, J., Pentland, A., Pham, P. N., Pivetta, F., … Vinck, P. (2020). Mobile phone data for informing public health actions across the COVID-19 pandemic life cycle. Science Advances, 6(23), eabc0764. https://doi.org/10.1126/sciadv.abc0764
+
+&lt;p&gt;Oliver, N., Matic, A., &amp;amp; Frias-Martinez, E. (2015). Mobile Network Data for Public Health: Opportunities and Challenges. Frontiers in Public Health, 3. https://doi.org/10.3389/fpubh.2015.00189
+
+&lt;p&gt;Wang, S., Cao, J., &amp;amp; Yu, P. S. (2019). Deep Learning for Spatio-Temporal Data Mining: A Survey. ArXiv:1906.04928 [Cs, Stat]. http://arxiv.org/abs/1906.04928
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>jeffmur</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Research Assistant</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

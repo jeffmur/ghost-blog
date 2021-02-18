@@ -1,8 +1,0 @@
-security:
-  name: security
-research:
-  name: research
-projects:
-  name: projects
-
-  # See _includes/navigation.html
