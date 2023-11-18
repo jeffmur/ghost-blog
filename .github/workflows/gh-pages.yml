@@ -5,6 +5,7 @@ on:
 
 jobs:
   prebuild:
+    name: "Build Image 🏗️"
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -24,11 +25,9 @@ jobs:
           docker push ghcr.io/jeffmur/ghost-blog-gems:latest
     
   build:
+    name: ""
     runs-on: ubuntu-latest
     needs: prebuild
-    defaults:
-      run:
-        working-directory: /srv/jekyll
     steps:
     - uses: actions/checkout@v3
     
