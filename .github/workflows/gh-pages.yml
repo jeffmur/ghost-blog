@@ -1,3 +1,4 @@
+name: "Github Pages 🚢"
 on:
   push:
     branches: [ "automate" ]
@@ -14,7 +15,7 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && bundle exec jekyll build"
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build"
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v2
