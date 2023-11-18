@@ -39,7 +39,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Build Static Artifacts
-      run: chmod +x build.sh && build.sh
+      run: chmod +x build.sh && sh build.sh
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v2
