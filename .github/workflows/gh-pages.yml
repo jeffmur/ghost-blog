@@ -36,8 +36,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Gemfile.lock
-      run: cp /srv/jekyll/Gemfile.lock .
+    - name: Install Dependencies
+      run: bundle install
 
     - name: Build Static artifacts
       run: bundle exec jekyll build
