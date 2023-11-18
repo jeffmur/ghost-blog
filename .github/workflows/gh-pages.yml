@@ -38,8 +38,7 @@ jobs:
       with:
         entrypoint: bash
         args: |
-          echo $PWD
-          ls
+          echo $PWD && ls
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v2
