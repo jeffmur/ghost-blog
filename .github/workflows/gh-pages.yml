@@ -38,8 +38,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Create Gemfile.lock
-      run: touch Gemfile.lock
+    - run: whoami
 
     - name: Build Static Artifacts
       run: bundle exec jekyll build
