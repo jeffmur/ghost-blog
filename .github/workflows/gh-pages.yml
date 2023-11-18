@@ -34,7 +34,8 @@ jobs:
     - name: Build static site
       uses: docker://ghcr.io/jeffmur/ghost-blog-gems:latest
       with:
-        entrypoint: ./build.sh
+        entrypoint: /bin/bash
+        args: ls
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v2

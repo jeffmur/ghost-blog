@@ -13,5 +13,3 @@ COPY build.sh build.sh
 RUN bundle install
 
 RUN chmod +x build.sh
-
-ENTRYPOINT [ "./build.sh" ]
