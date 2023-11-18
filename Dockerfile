@@ -6,16 +6,10 @@ RUN chmod -R 777 /srv/jekyll
 
 # Cache Files
 COPY Gemfile Gemfile
-COPY build.sh build.sh
-RUN chmod +x build.sh
-# COPY _config.yml _config.yml
-# COPY _plugins/ _plugins/
 
-RUN bundle lock
-RUN chmod 777 Gemfile.lock
+# COPY build.sh build.sh
+# RUN chmod +x build.sh
 
 RUN bundle install
-
-USER root
 
 # ENTRYPOINT ["./build.sh"]
