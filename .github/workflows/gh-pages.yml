@@ -36,7 +36,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Copy Gemfile.lock
+    - name: Gemfile.lock
       run: cp /srv/jekyll/Gemfile.lock .
 
     - name: Build Static artifacts
