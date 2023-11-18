@@ -4,18 +4,36 @@ on:
     branches: [ "automate" ]
 
 jobs:
+  prebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 'Login to GitHub Container Registry'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 'Build Inventory Image'
+        run: |
+          docker build . --tag ghcr.io/jeffmur/ghost-blog-gems:latest
+          docker push ghcr.io/jeffmur/ghost-blog-gems:latest
+    
   build:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
-
+    
     - name: Build static site
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
-        -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build"
+        ghcr.io/jeffmur/ghost-blog-gems:latest \
+        /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build"
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v2
