@@ -28,6 +28,8 @@ jobs:
     name: "Build Artifacts 🏗️"
     runs-on: ubuntu-latest
     # needs: prebuild
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v3
     
