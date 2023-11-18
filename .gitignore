@@ -8,6 +8,7 @@
 # Jekyll build
 .jekyll-metadata
 /site/
+/_site/
 #Gemfile.lock
 
 # webstorm
