@@ -5,7 +5,7 @@ on:
 
 jobs:
   prebuild:
-    name: "Build Image 🏗️"
+    name: "Build Image 👷"
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -25,25 +25,26 @@ jobs:
           docker push ghcr.io/jeffmur/ghost-blog-gems:latest
     
   build:
-    name: ""
+    name: "Build Artifacts 🏗️"
     runs-on: ubuntu-latest
     needs: prebuild
     steps:
     - uses: actions/checkout@v3
     
+    # - name: Build static site
+    #   uses: docker://ghcr.io/jeffmur/ghost-blog-gems:latest
     - name: Build static site
-      uses: docker://ghcr.io/jeffmur/ghost-blog-gems:latest
-
-      # run: |
-      #   docker run \
-      #   -v ${{ github.workspace }}:/srv/jekyll \
-      #   ghcr.io/jeffmur/ghost-blog-gems:latest
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll \
+        ghcr.io/jeffmur/ghost-blog-gems:latest
         
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v2
 
   deploy:
+    name: "Deploy Pages 📃"
     needs: build
     
     permissions:
