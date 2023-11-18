@@ -16,4 +16,6 @@ RUN chmod 777 Gemfile.lock
 
 RUN bundle install
 
+USER root
+
 # ENTRYPOINT ["./build.sh"]
