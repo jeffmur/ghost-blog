@@ -30,16 +30,16 @@ jobs:
     # needs: prebuild
     permissions:
       contents: write
+
+    container:
+      image: docker://ghcr.io/jeffmur/ghost-blog-gems:latest
+      volumes:
+        - ${{ github.workspace }}:/srv/jekyll
     steps:
     - uses: actions/checkout@v3
-    - run: ls
-    - run: echo $PWD
-    
-    - name: Build static site
-      uses: docker://ghcr.io/jeffmur/ghost-blog-gems:latest
-      with:
-        entrypoint: bash
-        args: build.sh
+
+    - name: Build Static Artifacts
+      run: ./build.sh
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v2
