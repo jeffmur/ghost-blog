@@ -12,6 +12,10 @@ COPY build.sh build.sh
 
 RUN bundle install
 
+RUN bundle lock
+
+RUN chmod 777 Gemfile.lock
+
 RUN chmod +x build.sh
 
 # ENTRYPOINT ["./build.sh"]
