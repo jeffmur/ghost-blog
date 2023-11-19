@@ -84,6 +84,7 @@ exclude:
   - lighthouse.png
   - klise-*.gem
   - klise.gemspec
+  - vendor
 
 # Plugins
 plugins:
