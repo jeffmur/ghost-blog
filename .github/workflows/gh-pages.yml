@@ -23,7 +23,11 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true
+          # bundler-cache: true
+
+      - run: gem install bundler:2.3.26
+      - run: bundle config set --local vendor/bundle
+      - run: bundle install
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
