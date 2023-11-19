@@ -4,30 +4,9 @@ on:
     branches: [ "automate" ]
 
 jobs:
-  # prebuild:
-  #   name: "Build Image 👷"
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     packages: write
-  #   steps:
-  #     - uses: actions/checkout@v3
-
-  #     - name: 'Login to GitHub Container Registry'
-  #       uses: docker/login-action@v3
-  #       with:
-  #         registry: ghcr.io
-  #         username: ${{ github.actor }}
-  #         password: ${{ secrets.GITHUB_TOKEN }}
-
-  #     - name: 'Build + Push'
-  #       run: |
-  #         docker build . --tag ghcr.io/jeffmur/ghost-blog-gems:latest
-  #         docker push ghcr.io/jeffmur/ghost-blog-gems:latest
-    
   build:
     name: "Build Artifacts 🏗️"
     runs-on: ubuntu-latest
-    # needs: prebuild
 
     steps:
       - name: Checkout
@@ -52,7 +31,7 @@ jobs:
     
     environment:
       name: github-pages
-      url: jeffmur.dev
+      url: https://jeffmur.dev
 
     runs-on: ubuntu-latest
     steps:
