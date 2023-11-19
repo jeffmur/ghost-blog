@@ -8,7 +8,8 @@
 # Jekyll build
 .jekyll-metadata
 /site/
-#Gemfile.lock
+/_site/
+Gemfile.lock
 
 # webstorm
 .idea/
@@ -32,5 +33,4 @@ test/tmp
 test/version_tmp
 tmp
 vendor
-Gemfile.lock
 node_modules
