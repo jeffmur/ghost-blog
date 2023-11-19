@@ -36,11 +36,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Install Dependencies
-      run: bundle install
-
     - name: Build Static artifacts
-      run: bundle exec jekyll build
+      run: mkdir _site && bundle exec jekyll build
 
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v2
